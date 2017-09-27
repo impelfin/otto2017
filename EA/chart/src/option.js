@@ -1,3 +1,5 @@
+//데이터 베이스와 관련된 정보
+
 var fs = require('fs'),
 configPath = __dirname + '/config.json';
 var parsed = JSON.parse(fs.readFileSync(configPath, 'UTF-8'));
