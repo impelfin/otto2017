@@ -1,3 +1,5 @@
+//차트에 명시될 부분의 이름을 지정, 색설정
+
 var data = {
     labels: [
         "RAW_1", "RAW_2", "META_1", "META_2"
@@ -29,6 +31,8 @@ var data = {
     ]
 };
 
+/*차트의 기본적인 틀을 생성
+responsive 가 false 되어있지 않다면 html파일에서 설정한 canvas와 상관없이 사이즈가 매우 커지게 됨*/
 var options = {
     animation: {
         animateScale: true
@@ -45,12 +49,16 @@ var options = {
     }
 };
 
+//차트의 타입을 정하고 canvas 선택한다 
+
 var ctx = document.getElementById("myChart").getContext('2d');
 var myBarChart = new Chart(ctx, {
     type: 'bar',
     data: data,
     options: options
 });
+
+//butoon의 기능을 활성화 한다.
 
 var button = document.getElementById("sendAjax")
 

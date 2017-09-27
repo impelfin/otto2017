@@ -1,3 +1,5 @@
+//sudo npm install 을 해주면 안에있는 모듈들이 다운받아진다.
+
 {
   "name": "chartjs",
   "version": "1.0.0",
