@@ -1,0 +1,79 @@
+#! /bin/bash
+
+for((i=1;i<=12;i++))
+do
+	case $i in
+	1)
+		for((j=1;j<=31;j++))
+		do
+		mkdir -p /e/$1/$i/$j	
+		done
+		;;
+	3)
+		for((j=1;j<=31;j++))
+		do
+		mkdir -p /e/$1/$i/$j	
+		done
+		;;
+	5)
+		for((j=1;j<=31;j++))
+		do
+		mkdir -p /e/$1/$i/$j	
+		done
+		;;
+	7)
+		for((j=1;j<=31;j++))
+		do
+		mkdir -p /e/$1/$i/$j	
+		done
+		;;
+	8)
+		for((j=1;j<=31;j++))
+		do
+		mkdir -p /e/$1/$i/$j	
+		done
+		;;
+	10)
+		for((j=1;j<=31;j++))
+		do
+		mkdir -p /e/$1/$i/$j	
+		done
+		;;
+	12)
+		for((j=1;j<=31;j++))
+		do
+		mkdir -p /e/$1/$i/$j	
+		done
+		;;
+	4)
+		for((j=1;j<=30;j++))
+		do
+		mkdir -p /e/$1/$i/$j	
+		done
+		;;
+	6)
+		for((j=1;j<=30;j++))
+		do
+		mkdir -p /e/$1/$i/$j	
+		done
+		;;
+	9)
+		for((j=1;j<=30;j++))
+		do
+		mkdir -p /e/$1/$i/$j	
+		done
+		;;
+	11)
+		for((j=1;j<=30;j++))
+		do
+		mkdir -p /e/$1/$i/$j	
+		done
+		;;
+	2)
+		for((j=1;j<=28;j++))
+		do
+		mkdir -p /e/$1/$i/$j	
+		done
+		;;
+	esac
+done
