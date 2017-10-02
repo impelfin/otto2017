@@ -1,4 +1,5 @@
 # ㅈㅗㄹㄹㅏㅁㅓㅅㅈㅣㄴ ㅈㅓㅇㅈㅣㄴㅅㅓㅂ ㅈㅏㄱㅍㅜㅁ
+# ㄱㅏㅁㅅㅏㅎㅏㅂㄴㅣㄷㅏㅎㅎ
 
 #! /bin/bash
 
@@ -8,31 +9,31 @@ do
 	1)
 		for((j=1;j<=31;j++))
 		do
-		mkdir -p /e/$1/$i/$j	
+		mkdir -p /e/$1/0$i/$j	
 		done
 		;;
 	3)
 		for((j=1;j<=31;j++))
 		do
-		mkdir -p /e/$1/$i/$j	
+		mkdir -p /e/$1/0$i/$j	
 		done
 		;;
 	5)
 		for((j=1;j<=31;j++))
 		do
-		mkdir -p /e/$1/$i/$j	
+		mkdir -p /e/$1/0$i/$j	
 		done
 		;;
 	7)
 		for((j=1;j<=31;j++))
 		do
-		mkdir -p /e/$1/$i/$j	
+		mkdir -p /e/$1/0$i/$j	
 		done
 		;;
 	8)
 		for((j=1;j<=31;j++))
 		do
-		mkdir -p /e/$1/$i/$j	
+		mkdir -p /e/$1/0$i/$j	
 		done
 		;;
 	10)
@@ -50,19 +51,19 @@ do
 	4)
 		for((j=1;j<=30;j++))
 		do
-		mkdir -p /e/$1/$i/$j	
+		mkdir -p /e/$1/0$i/$j	
 		done
 		;;
 	6)
 		for((j=1;j<=30;j++))
 		do
-		mkdir -p /e/$1/$i/$j	
+		mkdir -p /e/$1/0$i/$j	
 		done
 		;;
 	9)
 		for((j=1;j<=30;j++))
 		do
-		mkdir -p /e/$1/$i/$j	
+		mkdir -p /e/$1/0$i/$j	
 		done
 		;;
 	11)
@@ -74,7 +75,7 @@ do
 	2)
 		for((j=1;j<=28;j++))
 		do
-		mkdir -p /e/$1/$i/$j	
+		mkdir -p /e/$1/0$i/$j	
 		done
 		;;
 	esac
